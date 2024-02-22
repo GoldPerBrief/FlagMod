@@ -1,7 +1,7 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
+		"group": "de.goldperbrief",
 		"id": "flag_mod",
 		"version": "${version}",
 		"metadata": {
@@ -20,7 +20,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "de.goldperbrief.flagmod.FlagMod"
 		},
 		"depends": [
 			{
@@ -37,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "flag_mod.mixins.json"
 }
