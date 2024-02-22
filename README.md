@@ -21,9 +21,3 @@ In order to use this mod as a template:
     - Update the Java sub-directory structure so it reflects your Maven group
     - If the dependencies in `gradle/libs.versions.toml` aren't up-to-date, feel free to update them! The [linked utility](https://lambdaurora.dev/tools/import_quilt.html) should help you in this easy and quick process.
 4. The mod is now ready to be worked on!
-
-## License
-
-This template on the QuiltMC GitHub is licensed under the [Creative Common Zero v1.0 license](./LICENSE-TEMPLATE.md).
-
-Mods created with this template are not automatically licensed under the CC0, and are not required to give any kind of credit back to QuiltMC for this template.
